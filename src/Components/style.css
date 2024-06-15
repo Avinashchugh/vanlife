@@ -147,7 +147,7 @@ header a:hover {
 
 /*** ABOUT PAGE ***/
 .about-hero-image {
-  max-width: 100%;
+  width: -webkit-fill-available;
 }
 
 .about-page-content {
@@ -178,6 +178,7 @@ header a:hover {
 .about-page-cta h2 {
   margin: 0;
   padding-block: 37px;
+  color: black;
 }
 
 .about-page-cta .link-button {
