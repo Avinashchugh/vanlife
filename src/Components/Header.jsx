@@ -4,9 +4,9 @@ const Header = () => {
   return (
     <header>
       <Link className="site-logo" to="/">
-        <button class="button" data-text="Awesome">
-          <span class="actual-text">&nbsp;VANTIFY&nbsp;</span>
-          <span aria-hidden="true" class="hover-text">&nbsp;VANTIFY&nbsp;</span>
+        <button className="button" data-text="Awesome">
+          <span className="actual-text">&nbsp;VANTIFY&nbsp;</span>
+          <span aria-hidden="true" className="hover-text">&nbsp;VANTIFY&nbsp;</span>
         </button>
       </Link>
       <nav>
